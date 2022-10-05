@@ -97,7 +97,7 @@ namespace PIF1006_tp1
         {
             if (!CheckAutomate())
             {
-                return;
+                Console.WriteLine(_automate.ToString());
             }
 
             SendMessageAndWait(_automate.ToString());
